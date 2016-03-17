@@ -1,0 +1,6 @@
+<h2>Edit part</h2>
+
+<%= render "form.html", changeset: @changeset,
+                        action: part_path(@conn, :update, @part) %>
+
+<%= link "Back", to: part_path(@conn, :index) %>

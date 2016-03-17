@@ -1,0 +1,18 @@
+<h2>Show part</h2>
+
+<ul>
+
+  <li>
+    <strong>Name:</strong>
+    <%= @part.name %>
+  </li>
+
+  <li>
+    <strong>Qty:</strong>
+    <%= @part.qty %>
+  </li>
+
+</ul>
+
+<%= link "Edit", to: part_path(@conn, :edit, @part) %>
+<%= link "Back", to: part_path(@conn, :index) %>
