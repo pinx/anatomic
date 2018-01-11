@@ -9,7 +9,7 @@ Dissecting a Phoenix app:
 
 Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
 
-![test](Untitled-Diagram.xml)
+![test](Untitled-Diagram.png)
 
 ## Learn more
 
